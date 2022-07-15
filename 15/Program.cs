@@ -10,6 +10,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 if ((number == 6) || (number == 7)) {
    Console.Write("да"); 
 }
-else {
+else if  ((number>0) && (number<6)) {
    Console.Write("нет");  
+}
+else {
+    Console.Write("ошибка"); 
 }
